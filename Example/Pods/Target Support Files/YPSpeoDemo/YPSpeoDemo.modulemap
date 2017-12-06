@@ -1,0 +1,6 @@
+framework module YPSpeoDemo {
+  umbrella header "YPSpeoDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
