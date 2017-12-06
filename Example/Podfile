@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YPSpeoDemo_Example' do
+  pod 'YPSpeoDemo', :path => '../'
+
+  target 'YPSpeoDemo_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
