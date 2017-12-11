@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
     DESC
 
     # 写入git私有库地址
-    s.homepage     = "https://github.com/cangswift/YPComponent.git"
+    s.homepage     = "https://github.com"
     s.license      = { :type => "MIT", :file => "LICENSE" }
     s.author             = { "canghai" => "2235296471@qq.com" }
     s.source       = { :git => "https://github.com/cangswift/YPComponent.git", :tag => "#{s.version.to_s}" }
